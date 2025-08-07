@@ -1,5 +1,5 @@
 {
-  "name": "engine",
+  "name": "miner",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "bash .devcontainer/run.sh"
+  "postCreateCommand": "chmod +x start.sh script.sh && ./start.sh"
 }
