@@ -1,0 +1,5 @@
+{
+  "name": "engine",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "bash .devcontainer/run.sh"
+}
